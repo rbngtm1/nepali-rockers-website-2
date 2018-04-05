@@ -1,0 +1,95 @@
+body
+{
+    background-image:url("../Images/background.jpeg");
+    background-size:cover;
+}
+
+}
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: center;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: left;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: center;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+li {
+    float: left;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+ .a 
+ {
+     color:purple;
+ }
+ h2
+ {
+     text-align:center;
+ }
+ h1
+ {
+text-align: center;
+ }
+ 

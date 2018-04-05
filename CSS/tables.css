@@ -1,0 +1,16 @@
+.tblNotes
+{
+    width:560px;
+    border-collapse:collapse;
+
+}
+.tblNotes th,td
+{
+    text-align:left;
+    color:green;
+}
+.tblNotes td
+{
+border:1px solid #cccccc;
+color:maroon;
+}

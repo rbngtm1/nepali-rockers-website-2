@@ -1,0 +1,57 @@
+
+
+
+.header
+{
+    width:100%;
+    height:50px;
+    text-align:center;
+    background:linear-gradient(red);
+    color:white;
+    font-weight:bold;
+    vertical-align:bottom;
+}
+
+.ulHeader
+{
+    list-style-type: none;
+    width:500px;
+    margin:auto;
+    text-align: center;
+}
+.ulHeader li
+{
+    float:center;
+    padding:0.5px;
+    border:1px solid transparent;
+}
+.ulHeader li:hover
+{
+    background-color:white;
+    color: blueviolet;
+    border:0.5px solid #aaaaaa;
+    transform:scale(1.15);
+    cursor:pointer;
+
+
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+    }
